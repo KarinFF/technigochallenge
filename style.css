@@ -1,4 +1,44 @@
+.search {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30rem;
+  height: 120px;
+}
 
-h1 {
-  color: #0025FF;
+.search .logo {
+  text-align: center;
+  margin-bottom:20px;
+}
+
+.search .logo img {
+  max-height:80px;
+}
+
+.search input {
+  width:50%;
+  box-sizing: border-box;
+  float: left;
+  height:50px;
+  padding:10px;
+  font-size:1rem;
+  border:1px solid #ddd;
+  background:#f9f9f9;
+  border-radius:4px;
+  outline: 0;
+}
+
+.search button {
+  width:17%;
+  margin-left:3%;
+  float:left;
+  height: 50px;
+  background:blue;
+  color:#fff;
+  outline:0;
+  border:0;
+  border-radius: 4px;
+  font-size:1rem;
+  font-weight:bold;
 }
