@@ -17,7 +17,7 @@
 }
 
 .search input {
-  width:50%;
+  width:70%;
   box-sizing: border-box;
   float: left;
   height:50px;
@@ -30,11 +30,11 @@
 }
 
 .search button {
-  width:17%;
+  width:27%;
   margin-left:3%;
   float:left;
   height: 50px;
-  background:blue;
+  background:#4285f4;
   color:#fff;
   outline:0;
   border:0;
